@@ -1,0 +1,152 @@
+body,
+html {
+  background-position: center; 
+  background-size: cover;
+  background-image: url("0006.jpg"); 
+  width:100%;
+  height:100%;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-size: 5rem;
+  color: #03223C;
+  font-family:'Satisfy', cursive;
+}
+
+footer{
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: lightblue;
+  border-color: lightblue;
+  height:20rem;
+  font-size: 20px;
+
+}
+
+nav{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 20px;
+  font-size: 20px;
+}
+
+section{
+  font-size: 50px;
+}
+
+.d-flex{
+justify-content:center;
+align-items:center;
+ }
+
+
+
+.navbar-brand{
+  font-size:32px;
+}
+
+
+.bg-custom{
+  background-color:white;
+}
+
+.navbar-brand:hover{
+  background-color: white;
+}
+
+.navbar-toggler:hover{
+  background-color: white;
+}
+
+.btn{
+  font-weight: 700;
+  border-radius:300px;
+  text-transform: uppercase;
+  font-family:'Open Sans Condensed', sans-serif;
+}
+
+.btn-primary{
+  background-color:#75BFFC ;
+  border-color:#75BFFC;
+}
+
+.btn-primary:hover{
+  background-color: #299EFE;
+  border-color: #299EFE;
+  border-width: 3px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+  
+}
+
+.buffer{
+  height: 5rem;
+}
+
+.btn-secondary{
+  background-size: 100%;
+  background-position: center;
+  border: none;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0px;
+  margin:  0px ;
+  cursor: pointer;
+  border-radius: 100%;
+  background-color:transparent; 
+}
+
+.btn-secondary:hover{
+  background-image: url("facebook2.png");
+  background-size: cover;
+  background-position: center;
+  color:white;
+  background-color: white;
+  transition: 0.8s;
+}
+
+.fb-icn{
+  background-image: url("facebook2.png");
+  background-color: transparent;
+}
+
+.fb-icn:hover{
+  background-image: url("facebook.png");
+  background-color: transparent;
+}
+
+.inst-icn{
+  background-image: url("instagram2.png");
+  background-color: transparent;
+}
+
+.inst-icn:hover{
+  background-image: url(instagram.png);
+  background-color: transparent;
+}
+
+.twit-icn{
+  background-image: url("twitter2.png");
+  background-color: transparent;
+}
+
+.twit-icn:hover{
+  background-image: url("twitter.png");
+  background-color: transparent;
+}
+
+.ytb-icn{
+  background-image: url("youtube2.png");
+  background-color: transparent;
+}
+
+.ytb-icn:hover  {
+  background-image: url("youtube.png");
+  background-color: transparent;
+}
